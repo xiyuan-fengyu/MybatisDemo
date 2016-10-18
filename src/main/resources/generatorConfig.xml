@@ -15,7 +15,7 @@
         <javaClientGenerator targetPackage="com.xiyuan.mybatis.dao"
             targetProject="src/main/scala" type="XMLMAPPER" />
 
-        <table schema="mybits" tableName="tb_test" enableCountByExample="false" enableUpdateByExample="false"
+        <table schema="TbTestDao" tableName="tb_test" enableCountByExample="false" enableUpdateByExample="false"
                enableDeleteByExample="false" enableSelectByExample="false"
                selectByExampleQueryId="false" >
             <generatedKey column="id" sqlStatement="MySql" identity="true"/>
