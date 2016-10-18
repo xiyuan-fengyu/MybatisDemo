@@ -16,8 +16,6 @@ object Test {
     val session = sessionFactory.openSession()
     try {
       val dao = session.getMapper(classOf[TbTestDao])
-      XYLog.d(dao.selectByExample(null))
-
       XYLog.d("最大ID：", dao.maxId().toString)
 
       XYLog.d(dao.idBetween(0, 10))
